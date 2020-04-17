@@ -2,8 +2,6 @@
 
     namespace src\controller;
 
-    include_once("src\model\LibriModel.php");
-    
     use src\model\LibriModel;
 
     class ControllerLibri{

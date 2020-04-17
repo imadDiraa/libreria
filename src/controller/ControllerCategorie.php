@@ -2,8 +2,6 @@
 
     namespace src\controller;
 
-    include_once("src\model\CategorieModel.php");
-    
     use src\model\CategorieModel;
 
     class ControllerCategorie{

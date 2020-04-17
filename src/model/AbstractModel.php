@@ -2,10 +2,7 @@
 
 namespace src\model;
 
-include_once 'Database.php';
-
 use Database;
-use http\Exception;
 use PDOStatement;
 
 /**
@@ -16,22 +13,22 @@ class AbstractModel {
     /**
      * @var string $tableName
      */
-    protected static string $tableName;
+    protected static $tableName;
 
     /**
      * @var string $entityClass
      */
-    protected static string $entityClass;
+    protected static $entityClass;
 
     /**
      * @var array $primaryKeys
      */
-    protected static array $primaryKeys = array();
+    protected static $primaryKeys = array();
 
     /**
      * @var array $foreignKeys
      */
-    protected static array $foreignKeys = array();
+    protected static $foreignKeys = array();
 
     /**
      * @var Database $database
