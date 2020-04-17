@@ -1,8 +1,8 @@
 <?php
 
-namespace libreria\Model;
+namespace src\model;
 
-use src\model\AbstractModel;
+use src\entity\Categoria;
 
 class CategorieModel extends AbstractModel
 {

@@ -23,7 +23,6 @@ function autoload() {
 
 autoload();
 
-
 use src\controller\Controller;
 
 $control = new Controller();

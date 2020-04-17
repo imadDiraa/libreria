@@ -2,7 +2,7 @@
 
 namespace src\model;
 
-use Database;
+use src\model\Database;
 use PDOStatement;
 
 /**
